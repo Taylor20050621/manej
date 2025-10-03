@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../estilos/hojadevida.css">
+    <title>Hoja de Vida</title>
 </head>
 <body style="background-color: #005954;">
+    <!-- Regresar al Inicio -->
     <header>
         <nav>
             <ul>
@@ -13,49 +15,64 @@
             </ul>
         </nav>
     </header>
-    <!--Titulo de mi pagina-->
+
     <h1>MI HOJA DE VIDA</h1>
-    <!--Insertar Imagen-->
-    <img src="../img/foto.jpg" alt="TR 1" width="125px" height="155px">
-    <form action="#" method="get">
-        <!--Creo un contenedor-->
+
+    <!-- Insertar foto -->
+    <div class="perfil">
+        <img src="../img/foto.jpg" alt="Foto de Kevin Mateo" width="200px" height="345px">
+        <form action="#" method="get">
+            <!-- Datos personales -->
         <div>
-        <!--Uso etiquetas de parrafo y de subtitulo-->
             <h3>Datos Personales</h3>
-            <p>Npmbres: Taylor Frank</p>
+            <p>Nombres: Taylor Frank</p>
             <p>Apellidos: Conejo Farinango</p>
-            <p>Cedula: 1050447141</p>
+            <p>Cédula: 1050447141</p>
             <p>Fecha de nacimiento: 01/01/2001</p>
-            <p>Lugar de nacimiento: Otavalo</p>
-            <p>Lugar de residencia: Quito</p>
-            <p>Direccion: Humberto de alvornoz y Alcedo</p>
-            <p>Número de telefono: 0986345855</p>
+            <p>Lugar de nacimiento: OTAVALO</p>
+            <p>Lugar de residencia: QUITO</p>
+            <p>Dirección: Humberto de Albornoz y Alcedo</p>
+            <p>Número de teléfono: 0986345855</p>
             <p>Email: conejotaylor@gmail.com</p>
         </div>
-        <div>
-            <h3>Perfil Profecional</h3>
-            <p>Soy una persona responsable, proactiva y con habilidades en comunicación y trabajo en equipo. Me destaco por mi capacidad de aprendizaje rápido y adaptación a nuevos entornos. Tengo interés en el desarrollo profesional continuo y en contribuir al logro de objetivos organizacionales mediante la aplicación de mis conocimientos y habilidades. Poseo experiencia en [mencionar área o sector, por ejemplo: atención al cliente, desarrollo web, gestión administrativa], y busco oportunidades que me permitan crecer profesionalmente mientras aporto valor a la empresa.</p>
+        </form>
+    </div>
+
+    <!-- Informacion profesional -->
+    <section>
+        <h3>Perfil Profesional</h3>
+        <p>
+            Soy una persona responsable, proactiva y con habilidades en comunicación y trabajo en equipo. 
+            Me destaco por mi capacidad de aprendizaje rápido y adaptación a nuevos entornos. 
+            Tengo interés en el desarrollo profesional continuo y en contribuir al logro de objetivos organizacionales mediante la aplicación de mis conocimientos y habilidades. 
+            Poseo experiencia en [mencionar área o sector, por ejemplo: atención al cliente, desarrollo web, gestión administrativa], y busco oportunidades que me permitan crecer profesionalmente mientras aporto valor a la empresa.
+        </p>
+    </section>
+
+    <!-- Información Académica -->
+    <section>
+        <h3>Información Académica</h3>
+        <p>Bachiller en Ciencias "Unidad Educativa Jacinto Collahuazo"</p>
+    </section>
+
+    <!-- Referencias -->
+    <section>
+        <h3>Referencias</h3>
+        <p>Teresa Farinango: 0993245855</p>
+        <p>Fabián Conejo: 0992175402</p>
+    </section>
+
+    <!-- Contactos -->
+    <section>
+        <h3>Contactos</h3>
+        <div class="contactos">
+            <a href="https://wa.me/593986345855">
+                <img src="../img/ic--twotone-whatsapp.svg" alt="WhatsApp" width="50" height="50">
+            </a>
+            <a href="https://www.facebook.com/share/14J3uLosR7k/">
+                <img src="../img/line-md--facebook.svg" alt="Facebook" width="50" height="50">
+            </a>
         </div>
-        <div>
-            <h3>Informacion Academica</h3>
-            <p>Bachiller en Ciencias "Unidad Educativa Jacinto Collahuazo</p>
-        </div>
-        <div>
-            <h3>Referencias</h3>
-            <p>Teresa Farinango: 0993246117</p>
-            <p>Fabian Conejo: 0992175402</p>
-        </div>
-        <header>
-            <nav>
-                <h3>CONTACTOS</h3>
-                <a href="https://wa.me/593986345855">
-                    <img src="../img/ic--twotone-whatsapp.svg" alt="" width="50px" height="50px">
-                </a>
-                <a href="https://www.facebook.com/share/14J3uLosR7k/">
-                    <img src="../img/line-md--facebook.svg" alt="" width="50px" height="50px">
-                </a>
-            </nav>
-        </header>
-    </form>
+    </section>
 </body>
 </html>

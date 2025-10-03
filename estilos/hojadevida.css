@@ -1,0 +1,62 @@
+body {
+    background-color: #f8f7f7;   /* Fondo suave */
+    color: #0f0f0f;              /* Texto negro */
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    color: rgb(8, 8, 8);                /* Regresar al Inicio */
+    text-decoration: none;       /* Quita la linea de abajo */
+}
+
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #000000;              /* Verde oscuro */
+}
+
+/* Flexbox para foto + datos personales */
+.perfil {
+    display: flex;               /* Foto y texto al lado */
+    gap: 15px;
+    align-items: flex-start;
+    margin: 20px;
+    background-color: #005954;           /* Fondo blanco */
+    padding: 10px;
+    border: 1px solid #080808;      /* Borde gris sencillo */
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgb(14, 14, 14);
+}
+
+.perfil img {
+    border-radius: 10px;          /* Bordes redondeados */
+}
+
+/* Secciones generales */
+section {
+    margin: 20px;
+    padding: 10px;
+    background-color: #005954;
+    border: 1px solid #070707;
+    border-radius: 5px;
+    box-shadow: 10px 10px 15px rgb(14, 14, 14);
+}
+
+/* Flexbox para contactos */
+.contactos {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+    
+}
+
+.contactos img {
+    cursor: pointer;
+    transition: transform 0.2s;   /* Animación al pasar el mouse */
+}
+
+.contactos img:hover {
+    transform: scale(1.1);        /* Hace zoom al pasar el mouse */
+    box-shadow: 10px 10px 15px rgb(14, 14, 14);
+}
